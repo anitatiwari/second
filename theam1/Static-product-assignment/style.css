@@ -1,0 +1,29 @@
+ body{
+     padding: 0% 10% 0% 10;
+ }
+ header{
+     background-color: black;
+    color: blanchedalmond;
+    
+
+ }
+ a{
+     margin: 10%;
+     color: rgb(236, 227, 220);
+     text-decoration: none;
+     font-size: 1.2em;
+     
+ }
+ main{
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+ }
+ img{
+     height: 15em;
+
+ }
+ .productlist article .soldOut.img{
+     opacity: 0.5;
+ }
+
+

@@ -1,0 +1,11 @@
+{
+    "alias":"WonderWoman",
+    "birthname":"Anita Tiwari",
+    "DOB":"1999-06-21",
+    "cape":false,
+    "power":["sleeping", ""],
+   
+    "gender":"woman",
+    "species": "Student"
+
+}
