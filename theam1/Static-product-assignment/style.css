@@ -1,29 +1,68 @@
- body{
-     padding: 0% 10% 0% 10;
- }
- header{
-     background-color: black;
-    color: blanchedalmond;
-    
+* {
+  margin: 0;
+}
+:root {
+  --color-color-0: hsl(360, 34%, 12%);
+  --color-color-50: hsl(360, 34%, 16%);
+  --color-color-100: hsl(360, 34%, 21%);
+  --color-color-150: hsl(360, 34%, 25%);
+  --color-color-200: hsl(360, 34%, 29%);
+  --color-color-250: hsl(360, 34%, 33%);
+  --color-color-300: hsl(360, 34%, 38%);
+  --color-color-350: hsl(360, 34%, 42%);
+  --color-color-400: hsl(360, 34%, 46%);
+  --color-color-450: hsl(360, 34%, 50%);
+  --color-color-500: hsl(360, 34%, 55%);
+  --color-color-550: hsl(360, 34%, 59%);
+  --color-color-600: hsl(360, 34%, 63%);
+  --color-color-650: hsl(360, 34%, 67%);
+  --color-color-700: hsl(360, 34%, 72%);
+  --color-color-750: hsl(360, 34%, 76%);
+  --color-color-800: hsl(360, 34%, 80%);
+  --color-color-850: hsl(360, 34%, 84%);
+  --color-color-900: hsl(360, 34%, 89%);
+  --color-color-950: hsl(360, 34%, 93%);
+}
+body {
+  padding: 0% 10% 0% 10;
+  background: var(--color-color-950);
+}
+header {
+  background-color: black;
+  color: blanchedalmond;
+}
 
- }
- a{
-     margin: 10%;
-     color: rgb(236, 227, 220);
-     text-decoration: none;
-     font-size: 1.2em;
-     
- }
- main{
-     display: grid;
-     grid-template-columns: 1fr 1fr 1fr;
- }
- img{
-     height: 15em;
 
- }
- .productlist article .soldOut.img{
-     opacity: 0.5;
- }
+ 
 
-
+img:hover {
+  color: var(--color-color-900);
+}
+a.link {
+  background-color: var(--color-color-600);
+  padding: 1rem;
+  border-radius: 50%;
+}
+a.link:hover {
+  background-color: var(--color-color-500);
+}
+a {
+  margin: 10%;
+  color: rgb(236, 227, 220);
+  text-decoration: none;
+  font-size: 1.2em;
+}
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+img {
+  height: 15em;
+}
+.productlist article .soldOut.img {
+  opacity: 0.5;
+}
+.smallProduct {
+  border: 2em solid;
+  padding: 2.5em;
+}
