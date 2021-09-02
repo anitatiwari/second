@@ -1,6 +1,7 @@
+const urlParams=new URLSearchParams(window.location.search);
+const season=urlParams.get("season");
 
-
-const url = "https://kea-alt-del.dk/t7/api/products";
+const url = "https://kea-alt-del.dk/t7/api/products?season="+season;
 fetch(url)
   .then(function (res) {
     return res.json();
@@ -25,6 +26,7 @@ function showProduct(product) {
   // <p>Now dkk 1560,-</p>
   // <p>-34%</p>
   //       </article>
+  console.log(product)
   const template=document.querySelector("#smallProductTemplate").content;
   // //clone it
   const copy= template.cloneNode(true);
