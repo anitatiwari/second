@@ -1,0 +1,95 @@
+body {
+  background-color: #f2f2f2;
+}
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 4rem;
+  margin: 5%;
+}
+
+header ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin-top: 3rem;
+  margin-right: 5rem;
+  margin-left: 3rem;
+  font-size: 1.3em;
+}
+.smallimage {
+  position: relative;
+  background-color: white;
+  padding: 20%;
+}
+.smallimage .main {
+  padding: 20%;
+}
+.price {
+  background-color: #2fdab8;
+  padding: 1.3rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.smallimage img {
+  max-width: 100%;
+}
+
+.menu {
+  display: flex;
+  gap: 2rem;
+}
+header {
+  /* background-color: rgb(247, 255, 255); */
+  margin: 0;
+  padding: 0;
+}
+/* svg {
+  background-color: blanchedalmond;
+  position: fixed;
+  top:20px;
+  right:20px;
+  width: 80px;
+} */
+a {
+  text-decoration: none;
+  color: #5c5c5c;
+}
+.smallProductTemplate {
+  display: flex;
+  flex-direction: column-reverse;
+}
+p {
+  margin-left: 10rem;
+  font-size: 2.5rem;
+}
+li {
+  list-style: none;
+}
+.learn {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 2%;
+  border-top: solid 1px;
+
+  border-right: solid 1px;
+  border-color: #cdcdcd;
+}
+.learn li {
+  padding: 3%;
+}
+.learn li {
+  font-size: 2em;
+  align-items: center;
+  margin: 0 auto;
+}
+.catagory {
+  display: grid;
+  grid-template-columns: repeat(3, 20vh);
+  padding: 3%;
+  font-size: 1.3rem;
+}
+.heading2 {
+  background-color: #96f7e3;
+}
